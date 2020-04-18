@@ -1,0 +1,24 @@
+{
+  "name": "dashifen/dashifen2020",
+  "description": "A WordPress theme for dashifen.com",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "David Dashifen Kees",
+      "email": "dashifen@dashifen.com",
+      "role": "developer"
+    }
+  ],
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-json": ">=7.4",
+    "dashifen/wp-handler": "^9.5",
+    "dashifen/wp-templates": "^3.2",
+    "timber/timber": "^1.15"
+  }
+}
