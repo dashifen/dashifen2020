@@ -10,6 +10,11 @@
       "role": "developer"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "Dashifen\\Dashifen2020\\" : "src"
+    }
+  },
   "config": {
     "sort-packages": true,
     "optimize-autoloader": true
