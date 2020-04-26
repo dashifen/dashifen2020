@@ -27,6 +27,7 @@
     "gulp-sourcemaps": "^2",
     "kss": "^3.0.1",
     "normalize.css": "^8",
+    "sass-loader": "^8.0.2",
     "through2": "^3",
     "vinyl-named": "^1",
     "vue": "^2",

@@ -11,13 +11,13 @@ html {
 a {
   &:link,
   &:visited {
-    color: $blue;
+    color: $purple;
   }
 
   &:active,
   &:focus,
   &:hover {
-    color: $lavender;
+    color: $yellow;
   }
 }
 
