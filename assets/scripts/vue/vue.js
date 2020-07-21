@@ -1,5 +1,5 @@
 import Vue from "vue";
-import MobileMenu from "./components/mobile-menu.vue";
+import MainMenu from "./components/main-menu.vue";
 
 Vue.config.productionTip = false;
 
@@ -9,7 +9,7 @@ export default {
 
     new Vue({
       el: "#vue-root",
-      components: {MobileMenu}
+      components: {MainMenu}
     });
   }
 }

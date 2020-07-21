@@ -8,14 +8,19 @@
 </head>
 <body <?php body_class() ?>>
     <div id="vue-root">
-        <header class="header" arial-labelledby="site-title">
-            <h1 id="site-title">David Dashifen Kees</h1>
-            <mobile-menu></mobile-menu>
-        </header>
-    
-    
+        <a href="#content" class="screen-reader-text">Skip to the Content</a>
+        <main-menu></main-menu>
+        <main id="content" class="main">
+            <section class="main__content">
+            
+            </section>
+        </main>
+        <section class="main__sidebar">
+
+        </section>
+        <footer class="footer">
         
-        
+        </footer>
     </div>
     <?php wp_footer() ?>
 </body>
